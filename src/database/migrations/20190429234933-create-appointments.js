@@ -4,13 +4,13 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable('appointments', {
       id: {
-        allownull: false,
+        allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
       date: {
-        allownull: false,
+        allowNull: false,
         type: Sequelize.DATE
       },
       user_id: {

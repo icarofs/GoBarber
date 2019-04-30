@@ -17,6 +17,7 @@ class AppointmentController {
       provider_id: provider,
       date
     })
+
     return res.redirect('/app/dashboard')
   }
 }
